@@ -12,7 +12,7 @@
 (function() {
     'use strict';
 
-     // Escolha o que deseja ocultar da tela inicial
+     // Escolha o icone que deseja ocultar
     const S = {
         hideFeed: false,
         hideGuideDrawer: true,
@@ -31,9 +31,7 @@
         hideMasthead: false,
         hideSkipNavButton: false,
     };
-
     let css = '';
-
     if (S.hideFeed) css += '#feed, ytd-browse[page-subtype=home] { display: none !important; }';
     if (S.hideGuideDrawer) css += '#appbar-guide-menu, app-drawer#guide, ytd-mini-guide-renderer, #guide-button { display: none !important; } #appbar-guide-menu { width: 0; }';
     if (S.hideGuideHomeTab) css += '#home-guide-item, ytd-guide-section-renderer:first-child #items > ytd-guide-entry-renderer:first-child, #appbar-nav li:first-child, ytd-mini-guide-renderer #items ytd-mini-guide-entry-renderer:first-child { display: none !important; }';
@@ -54,5 +52,4 @@
     const style = document.createElement('style');
     style.textContent = css;
     document.documentElement.appendChild(style);
-
 })();

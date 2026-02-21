@@ -1,6 +1,7 @@
 // ==UserScript==
 // @name            Icones
-// @description     Remoção de icones do YouTube.
+// @description     Remove vários ícones da tela inicial do Youtube.
+// @namespace       Icones
 // @license         GPL-3.0
 // @version         1.0
 // @author          Cowanbas 

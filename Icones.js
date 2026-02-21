@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name            Icones
-// @description     Remove vários ícones da tela inicial do Youtube.
+// @description     Remove ícones da tela inicial do Youtube.
 // @namespace       Icones
 // @license         GPL-3.0
 // @version         1.0

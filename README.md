@@ -6,4 +6,4 @@ Para ocultar algum ícone coloque "true" em frente o nome dele na lista dos coma
 
 O script vem com esse preset de ícones ocultos:
 
-<img width="255" height="755" alt="image" src="https://github.com/user-attachments/assets/e86f06b9-48bd-4273-80e5-bdcecc387666" />
+<img width="1919" height="999" alt="image" src="https://github.com/user-attachments/assets/2f7b01e8-e4ea-4594-9859-06efe9aad0b3" />
